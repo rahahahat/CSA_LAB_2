@@ -23,7 +23,7 @@ func sendMessages(receiver chan string) {
 
 func main() {
 	// Create a channel for sending and receiving strings.
-	messages := make(chan string)
+	messages := make(chan string, 3)
 
 	// Start a new goroutine that will send some messages.
 	go sendMessages(messages)
