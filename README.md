@@ -321,5 +321,3 @@ Your new program should use 3 threads:
 Your select statement will have 2 cases. One for an updated score and one for a timeout message from the timer. You do not need to use a default case here.
 
 </details>
-
-
